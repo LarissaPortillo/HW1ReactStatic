@@ -1,0 +1,48 @@
+body{
+    background-color: #06114F;
+    color:white;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    display:grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 2fr 3fr;
+    height:97vh;
+    width:98vw;
+    grid-gap: 1vh;
+}
+
+.side{
+    grid-area: 1/1/3/1;
+    background-color: rgb(30, 30, 149);
+    display: flex;
+    align-items: center;
+}
+
+.top{
+    grid-area: 1/2/1/2;
+    display:flex;
+    justify-content: space-between;
+    flex-direction:row;
+    font-size:20px;
+}
+
+.bottom{
+    grid-area: 2/2/2/2;
+    background-color: rgb(30, 30, 149);
+    padding:1vh;
+    font-size:20px;
+}
+
+.graph{
+    background-color:rgb(30, 30, 94);
+    height:50%;
+    margin:5%;
+}
+
+.top .square{
+    background-color: rgb(30, 30, 149);
+    width:31%;
+    padding:1vh;
+}
