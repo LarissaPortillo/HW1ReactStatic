@@ -12,7 +12,7 @@ body{
     grid-template-rows: 2fr 3fr;
     height:97vh;
     width:90vw;
-    grid-gap: 2vh;
+    grid-gap: 4vh;
 }
 
 .side{
