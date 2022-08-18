@@ -21,8 +21,10 @@ class Reviews extends React.Component{
     render(){
         return(
             <section class='square'>
-                <h3>Reviews</h3>
-                1,281
+                Reviews
+                <br></br>
+                <br></br>
+                <span class="Num">1,281</span>
             </section>
         )
     }
@@ -32,8 +34,10 @@ class Rating extends React.Component{
     render(){
         return(
             <section class='square'>
-                <h3>Rating</h3>
-                4.6
+                Rating
+                <br></br>
+                <br></br>
+                <span class='Num'>4.6</span>
             </section>
         )
     }
@@ -42,14 +46,17 @@ class Rating extends React.Component{
 class Analysis extends React.Component{
     render(){
         return(
-            <section class='square'> 
-                <h3>Sentiment Analysis</h3>
-                    960
+            <section class='square analysis'> 
+                Sentiment Analysis
+                <br></br>
+                <br></br>
+                    <span class='Num' >960</span>
                     <br></br>
-                    122 
+                    <span class='Num' >122</span>
                     <br></br>
-                    321
+                    <span class='Num' >321</span>
                     <br></br>
+                    
             </section>
         )
     }
@@ -80,8 +87,10 @@ class Bottom extends React.Component{
     render(){
         return(
             <section class='bottom'>
-                <h3>Visitors</h3>
-                821
+                Visitors
+                <br></br>
+                <br></br>
+                <span class='Num'>821</span>
                 <Visitors />
             </section>
         )
